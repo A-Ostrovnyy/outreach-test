@@ -1,3 +1,5 @@
+// @ts-nocheck
+// Check https://github.com/streamich/react-use/blob/master/src/useLocalStorage.ts
 import {
   Dispatch,
   SetStateAction,
