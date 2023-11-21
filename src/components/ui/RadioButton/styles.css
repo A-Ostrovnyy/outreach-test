@@ -1,0 +1,40 @@
+.radio-button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.radio-button:hover {
+  transform: scale(1.09);
+}
+
+.radio-button__icon {
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
+.radio-button__input {
+  position: absolute;
+  appearance: none;
+  width: 0;
+  height: 0;
+}
+
+.radio-button__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  cursor: pointer;
+}
+
+.radio-button__input:checked + .radio-button__label {
+  background-color: #00c6ee;
+}
